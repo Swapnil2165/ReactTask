@@ -14,11 +14,11 @@ import Task5 from "./Task5/Staff"
 function App() {
   return (
     <div>
-     {/* <Task1/> */}
-      {/* <Task2B/> */}
-     {/* <Task3/> */}
-     {/* <Task4/> */}
-     {/* <Task5/> */}
+     <Task1/>
+      <Task2B/>
+     <Task3/>
+     <Task4/>
+     <Task5/>
      <Task2A/>
     </div>
   );
