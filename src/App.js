@@ -9,7 +9,7 @@ import Task1 from "./Task1/Navbar";
 function App() {
   return (
     <div>
-     <Task1/>
+     {/* <Task1/> */}
      
     </div>
   );
