@@ -96,9 +96,9 @@ const handleAddToCart = (e) => {
     };
   
   return (
-   <div className='container'>
+   <div className='flex shadow-md my-10'>
       <div className='row'>
-        <div className='col-sm-12'>
+        <div className='col'>
               <nav class="navbar navbar-light bg-primary">
                     <a class="navbar-brand">Shopping</a>
                     <form class="form-inline">
@@ -203,7 +203,7 @@ const handleAddToCart = (e) => {
             <td>{product.quantity}</td>
             <td>
               {product.quantity && product.price
-                ? `$${(product.price * product.quantity).toFixed(2)}`
+                ? `${(product.price * product.quantity).toFixed(2)}`
                 : ''}
             </td>
             <td>
