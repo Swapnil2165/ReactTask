@@ -117,7 +117,7 @@ const handleAddToCart = (e) => {
               <Form.Label>Product Name</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Enter product name"
+                placeholder=""
                 value={productName}
                 onChange={handleProductNameChange}
                 required
@@ -128,7 +128,7 @@ const handleAddToCart = (e) => {
               <Form.Label>Product Price</Form.Label>
               <Form.Control
                 type="number"
-                placeholder="Enter product price"
+                placeholder=""
                 value={productPrice}
                 onChange={handleProductPriceChange}
                 required
@@ -144,7 +144,7 @@ const handleAddToCart = (e) => {
                 required
               />
               {productImage && (
-                <img src={productImage} alt="Product" style={{ maxWidth: '100%', marginTop: '10px' }} />
+                <img src={productImage} alt="Product" style={{ maxWidth: '100%', marginTop: '30px' }} />
               )}
             </Form.Group>
           </Form>
